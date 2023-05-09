@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>home</title>
+  
+  <style>
+
+  logo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+ }
+
+ 
+
+
+    header {
+    	background-color: #F9F7EE;
+    	padding: 10px;
+    }
+    nav {
+    	display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+    
+    
+    nav ul {
+    	list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #F9F7EE; /*F9F7EE*/
+    text-align: right;
+    	}
+    
+    nav li {
+    	float: left;                                    
+    	}
+    
+    nav li a {
+    	display: block;
+    	color: black;
+    	text-align: center;
+    	padding: 1px 16px;
+    	text-decoration: none;}
+    
+    nav li a:hover {
+    	background-color: #FEFBF0;}
+
+        .reviews {
+  margin-top: 30px;
+}
+
+
+.reviews {
+  margin-top: 30px;
+}
+
+.stars {
+  --star-size: 20px;
+  --rating: 0;
+  --star-color: #f8ce0b;
+  --empty-star-color: #ddd;
+  display: inline-block;
+  font-size: var(--star-size);
+  line-height: 1;
+}
+
+.stars::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, var(--empty-star-color) var(--rating), var(--star-color) var(--rating));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+  </style>
+  
+</head>
+
+<body>
+  
+ <header>
+
+  
+   <nav> 
+     <ul>
+       <li><a href=""> Home</a></li>
+       <li><a href=""> page 1</a></li>
+       <li><a href=""> page 2</a></li>
+       <li><a href=""> page 3</a></li>
+       <li><a href=""> page 4</a></li>
+       </ul>
+
+       <img src="logo.png" alt="my Logo" class="logo">
+   </nav> 
+  </header>
+
+  <img src="fifa23.jpeg" alt="Game Poster" class="mainposter">
+
+  <h1>Game Name</h1>
+<p><strong>Genre:</strong> Action</p>
+<p><strong>Platform:</strong> PlayStation 5</p>
+<p><strong>Year of Release:</strong> 2022</p>
+
+<div class="reviews">
+    <h2>Reviews</h2>
+    <div class="stars" style="--rating: 4;"></div>
+    <p>4.0 stars out of 5</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum suscipit hendrerit. Integer sit amet nulla vel sem congue porta eget sit amet lectus. Aliquam feugiat malesuada turpis, et tincidunt arcu tristique eget. Nulla facilisi. Morbi eget augue justo. Sed imperdiet, nulla at hendrerit vulputate, purus nibh tristique nibh, eget viverra turpis nisl id dolor.</p>
+  </div>
+  
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
