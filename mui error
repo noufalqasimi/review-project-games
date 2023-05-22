@@ -1,0 +1,10 @@
+videogames@0.1.0 C:\Users\nouf.alqasimi\Desktop\videogamesreview-main\videogamesreview-main
+├─┬ @mui/icons-material@5.11.16
+│ └── @mui/material@ deduped invalid: "^5.13.0" from the root project, "^5.0.0" from node_modules/@mui/icons-material
+└── @mui/material@ invalid: "^5.13.0" from the root project, "^5.0.0" from node_modules/@mui/icons-material
+
+npm ERR! code ELSPROBLEMS
+npm ERR! invalid: @mui/material@ C:\Users\nouf.alqasimi\Desktop\videogamesreview-main\videogamesreview-main\node_modules\@mui\material
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\nouf.alqasimi\AppData\Local\npm-cache\_logs\2023-05-22T08_03_51_652Z-debug-0.log
