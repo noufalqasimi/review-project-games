@@ -1,0 +1,19 @@
+CREATE TABLE video_games (
+    game_poster VARCHAR(255),
+    game_name VARCHAR(255),
+    platforms VARCHAR(255),
+    genre VARCHAR(255),
+    modes VARCHAR(255),
+    release_date DATE,
+    about_game TEXT
+);
+
+INSERT INTO video_games (game_poster, game_name, platforms, genre, modes, release_date, about_game)
+VALUES
+    ('https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/yM0eeJui8AFByeP5BC5XV5j9.png', 'FIFA 23', 'Multiple', 'Sports', 'Single-player, Multiplayer', '2023-09-01', 'FIFA 23 is the latest installment in the FIFA series, featuring realistic graphics and improved gameplay.'),
+    ('https://i.pinimg.com/736x/31/96/c1/3196c14ef4255c0965436f0f85497fbb.jpg', "Assassin's Creed Valhalla", 'PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, PC', 'Action-adventure', 'Single-player', '2020-11-10', "Assassin's Creed Valhalla takes players on a Viking adventure through the open world of medieval England."),
+    ('https://m.media-amazon.com/images/M/MV5BMzc2MzEzNjc4OV5BMl5BanBnXkFtZTgwOTQ4MTI1NjM@._V1_.jpg', 'Call of Duty: Black Ops 4', 'PlayStation 4, Xbox One, PC', 'First-person shooter', 'Single-player, Multiplayer', '2018-10-12', 'Black Ops 4 is a fast-paced shooter game with various multiplayer modes and a thrilling single-player campaign.'),
+    ('https://i.etsystatic.com/13367669/r/il/013579/3107621028/il_570xN.3107621028_hfi8.jpg', 'Grand Theft Auto 5', 'PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, PC', 'Action-adventure', 'Single-player, Multiplayer', '2013-09-17', 'GTA V is an open-world game that allows players to explore the fictional city of Los Santos and engage in various criminal activities.'),
+    ('https://i.ebayimg.com/images/g/l~EAAOSw08Fe60Fv/s-l1600.jpg', 'Fortnite', 'PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, PC, Nintendo Switch, iOS, Android', 'Battle royale, Sandbox', 'Multiplayer', '2017-07-25', 'Fortnite is a popular battle royale game where players fight against each other in a shrinking map to be the last one standing.'),
+    ('https://cdn.europosters.eu/image/750/posters/the-last-of-us-key-art-i127761.jpg', 'The Last of Us', 'PlayStation 3, PlayStation 4', 'Action-adventure, Survival horror', 'Single-player, Multiplayer', '2013-06-14', 'The Last of Us is a post-apocalyptic game that follows the story of Joel and Ellie as they navigate through a world infected by a fungal virus.'),
+    ('https://image.api.playstation.com/vulcan/ap/rnd/202111/2000/wZ31G6ToIH9otXTVHbg3I2Wl.png', 'Uncharted', 'PlayStation 3, PlayStation 4', 'Action-adventure', 'Single-player', '2007-11-19', 'Uncharted is a series of action-adventure games that follow the adventures of treasure hunter Nathan Drake.');
